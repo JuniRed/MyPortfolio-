@@ -350,10 +350,10 @@ footer p:nth-child(2) {
     color: black;
   }
   .logo span {
-    color: red;
+    color: white;
   }
 section.hero {
-	color: black;
+	color: white;
     height: auto;
     width: 40%;
     margin-bottom: 8em;
@@ -362,7 +362,7 @@ section.hero {
     color: black;
   }
 	section.hero h4 {
-    color: gray;
+    color: white;
   }
   section.hero svg.down-arrow {
     stroke: black;
