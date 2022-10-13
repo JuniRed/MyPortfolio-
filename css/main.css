@@ -303,6 +303,7 @@ footer p:nth-child(2) {
 
 @media only screen and (min-width: 680px) {
   body {
+	   margin: 1.5em 5em;
     font-family: "Josefin Sans", sans-serif;
   }
 }
@@ -350,9 +351,10 @@ footer p:nth-child(2) {
     color: black;
   }
   .logo span {
-    color: gray;
+    color: red;
   }
 section.hero {
+	color: black;
     height: auto;
     width: 40%;
     margin-bottom: 8em;
@@ -363,10 +365,6 @@ section.hero {
 	section.hero h4 {
     color: gray;
   }
-  section.hero p {
-    margin-bottom: 8em;
-    color: black;
-  }
   section.hero svg.down-arrow {
     stroke: black;
     position: unset;
@@ -376,10 +374,7 @@ section.hero {
   }
 }
 @media only screen and (min-width: 1200px) {
-  body {
-    width: 1200px;
-    margin: 0 auto;
-  }
+  
 }
 @-webkit-keyframes introLoad {
   from {
