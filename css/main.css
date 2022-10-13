@@ -11,6 +11,8 @@ body {
   background-image: url(../images/juni01.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
   -webkit-animation: moveDown 1s ease-in-out forwards;
           animation: moveDown 1s ease-in-out forwards;
 }
