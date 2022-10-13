@@ -51,7 +51,7 @@ header .logo {
   margin-top: 0.4em;
 }
 header .logo span {
-  color: black;
+  color: gray;
 }
 
 nav {
@@ -126,15 +126,15 @@ nav .btn:hover {
   left: 8%;
 }
 .content h1 {
-  color: rgb(226, 224, 224);
+  color: white;
   margin: 20px 0px 20px;
   font-size: 2.5rem;
 }
 .content h1 span {
-  color: black;
+  color: white;
 }
 .content h4 {
-  color: white;
+  color: red;
   letter-spacing: 2px;
   font-size: 1rem;
   margin-bottom: 1em;
