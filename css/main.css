@@ -312,7 +312,7 @@ footer p:nth-child(2) {
   }
 
   nav {
-    transform: translateX(0%);
+    transform: translateX(0);
     position: unset;
     display: block;
     width: auto;
@@ -339,7 +339,7 @@ footer p:nth-child(2) {
     display: none;
   }
 
-  .hero {
+  .hero-img {
     left: unset;
     right: 0;
     width: 50%;
@@ -374,41 +374,11 @@ section.hero {
   section.hero svg.down-arrow path {
     fill: black;
   }
-
-  .feature {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 3em;
-    margin-bottom: 8em;
-  }
-  .feature img {
-    width: 25em;
-  }
-  .feature .content {
-    text-align: right;
-    width: 25em;
-  }
-
-  .feature.left {
-    grid-template-areas: "left right";
-  }
-  .feature.left img {
-    grid-area: left;
-  }
-  .feature.left .content {
-    text-align: left;
-    width: 25em;
-    justify-self: left;
-  }
 }
 @media only screen and (min-width: 1200px) {
-  .wrapper {
+  body {
     width: 1200px;
     margin: 0 auto;
-  }
-
-  .feature {
-    gap: 0;
   }
 }
 @-webkit-keyframes introLoad {
