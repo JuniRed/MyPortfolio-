@@ -471,12 +471,16 @@ footer p:nth-child(2) {
     font-family: "Josefin Sans", sans-serif;
   }
 .hero {
+  position: absolute;
+  top: 0;
+  left: 0;
   height:100vh;
   width: 100%;
   background-image: url(../images/juni01.jpg);
   background-size: cover;
   background-position: center;
-  margin-bottom: 1em;
+  z-index: -1;
+  
   -webkit-animation: moveDown 1s ease-in-out forwards;
           animation: moveDown 1s ease-in-out forwards;
 }
