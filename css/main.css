@@ -483,13 +483,7 @@ footer p:nth-child(2) {
 	background-size: cover;
 	background-position: center;
 	}
-  .about {
-  display: flex;
-  margin-top: 50em;
-  width: 100%;
-  padding: 100px 0px;
-  background-color: #191919;
-}
+  
 }
 @media only screen and (min-width: 920px) {
   .menu {
