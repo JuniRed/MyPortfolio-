@@ -20,7 +20,13 @@ body {
   -webkit-animation: moveDown 1s ease-in-out forwards;
           animation: moveDown 1s ease-in-out forwards;
 }
-.hero-img .down-arrow {
+section.hero{
+	color: white;
+	height: 90vh;
+	animation: moveDown 1s ease-in-out forwards;
+	opacity: 0;
+}
+section.hero .down-arrow {
   stroke: rgb(167, 62, 62);
   position: absolute;
   bottom: 5em;
@@ -28,7 +34,7 @@ body {
   margin-left: 1em;
   animation: moveArrow 1s alternate-reverse infinite;
 }
-.hero-img .down-arrow path {
+section.hero .down-arrow path {
   fill: white;
 }
 
