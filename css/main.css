@@ -478,7 +478,8 @@ footer p:nth-child(2) {
   width: 100%;
   background-image: url(../images/juni01.jpg);
   background-size: cover;
-  background-position: center;
+  background-position-x: 30%;
+  background-position-y: 30%;
   z-index: -1;
   
   -webkit-animation: moveDown 1s ease-in-out forwards;
