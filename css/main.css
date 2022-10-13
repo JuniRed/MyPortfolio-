@@ -5,7 +5,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.hero {
+.hero-img {
   position: absolute;
   top:0;
   left: 0;
@@ -20,7 +20,7 @@ body {
   -webkit-animation: moveDown 1s ease-in-out forwards;
           animation: moveDown 1s ease-in-out forwards;
 }
-.hero .down-arrow {
+.hero-img .down-arrow {
   stroke: rgb(167, 62, 62);
   position: absolute;
   bottom: 5em;
@@ -28,7 +28,7 @@ body {
   margin-left: 1em;
   animation: moveArrow 1s alternate-reverse infinite;
 }
-.hero .down-arrow path {
+.hero-img .down-arrow path {
   fill: white;
 }
 
