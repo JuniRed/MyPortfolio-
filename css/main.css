@@ -521,7 +521,7 @@ footer p:nth-child(2) {
     color: black;
   }
   .logo span {
-    color: red;
+    color: gray;
   }
 section.hero {
     height: auto;
@@ -530,6 +530,9 @@ section.hero {
   }
   section.hero h1 {
     color: black;
+  }
+	section.hero h4 {
+    color: gray;
   }
   section.hero p {
     margin-bottom: 8em;
