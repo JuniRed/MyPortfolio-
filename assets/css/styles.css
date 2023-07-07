@@ -525,6 +525,15 @@ img {
 .skills__canva{
 	width: 30%;
 	}
+.skills__papps{
+	width: 85%;
+	}
+.skills__pauto{
+	width: 60%;
+	}
+.skills__pbi{
+	width: 40%;
+	}
 	
 .skills__close .skills__list{
 	height: 0;
